@@ -1,5 +1,5 @@
 # Dylan-Lyrics-Generator
-PyTorch implementation of a Long Short-Term Memory (LSTM) recurrent neural network for learning Bob Dylan's lyrical style and generating lyrical output. Using a Word2vec-like embedding scheme for vectorizing text input, the LSTM model uses two LSTM layers with 256 hidden layer neurons and p=0.2 dropout. For training, the model uses cross entropy loss, Adam optimization, L2 regularization, and gradient clipping.
+PyTorch implementation of a Long Short-Term Memory (LSTM) recurrent neural network for learning Bob Dylan's lyrical style and generating lyrical output. Incorporating a Word2vec-like embedding scheme for vectorizing text input, the LSTM model uses two LSTM layers with 256 hidden layer neurons and p=0.2 dropout. For training, the model uses cross entropy loss, Adam optimization, L2 regularization, and gradient clipping.
 
 
 ## Background
